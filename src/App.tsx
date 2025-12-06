@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import EyeCard from './components/EyeCard'
 import './App.css'
 

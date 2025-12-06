@@ -6,7 +6,7 @@ interface EyeProps {
   mouseY: number
 }
 
-const Eye = ({ mouseX, mouseY, centerX, centerY }: EyeProps) => {
+const Eye = ({ mouseX, mouseY }: EyeProps) => {
   const eyeRef = useRef<HTMLDivElement>(null)
   const [pupilPosition, setPupilPosition] = useState({ x: 0, y: 0 })
 
