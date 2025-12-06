@@ -2,41 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>dogleg.band</title>
+  <title>Interactive Eye-Following Card</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="dogleg.band – official site." />
 
-  <!-- Basic Open Graph tags -->
-  <meta property="og:title" content="dogleg.band" />
-  <meta property="og:description" content="Official home of dogleg.band." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://dogleg.band/" />
-
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <div class="logo">dogleg<span>.band</span></div>
-     <!-- <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#music">Music</a>
-        <a href="#shows">Shows</a>
-        <a href="#contact">Contact</a>
-      </nav> -->
+  <!-- Wrapper is optional; you can remove this and just use .eye-card anywhere -->
+  <div class="page-wrapper">
+    <div class="eye-card">
+      <div class="eye-card-inner">
+        <div class="character">
+          <div class="face">
+            <div class="eye eye-left">
+              <div class="eyeball">
+                <div class="pupil"></div>
+              </div>
+            </div>
+
+            <div class="eye eye-right">
+              <div class="eyeball">
+                <div class="pupil"></div>
+              </div>
+            </div>
+
+            <!-- Optional little mouth / detail -->
+            <div class="mouth"></div>
+          </div>
+        </div>
+
+        <div class="eye-card-content">
+          <h1 class="card-title">Cookie Monster Color</h1>
+          <p class="card-subtitle">
+            A playful, interactive card where the character’s eyes follow your cursor.
+          </p>
+          <button class="primary-btn">Get Started</button>
+        </div>
+      </div>
     </div>
-  </header>
+  </div>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <p>I'm back homies</p>
-
-  </main>
-
-
-  <script src="assets/js/main.js"></script>
+  <!-- Script -->
+  <script src="script.js"></script>
 </body>
 </html>
