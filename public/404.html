@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Dogleg</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        background: #f5f5dc;
+        color: #000;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .error-card {
+        background: #f5f5dc;
+        border-radius: 2px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        padding: 0;
+        max-width: 400px;
+        width: 100%;
+        overflow: hidden;
+        border: 6px solid #f5f5dc;
+        text-align: center;
+      }
+
+      .error-header {
+        background: #0263ad;
+        padding: 60px 40px;
+        color: white;
+      }
+
+      .error-code {
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        margin-bottom: 10px;
+      }
+
+      .error-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-bottom: 8px;
+      }
+
+      .error-body {
+        padding: 30px 40px;
+        background: #f5f5dc;
+      }
+
+      .error-description {
+        font-size: 0.875rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      .error-link {
+        display: inline-block;
+        color: #0263ad;
+        text-decoration: none;
+        font-weight: 600;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.2s ease;
+      }
+
+      .error-link:hover {
+        border-bottom-color: #0263ad;
+      }
+
+      @media (max-width: 600px) {
+        .error-card {
+          max-width: 90%;
+          margin: 20px;
+        }
+
+        .error-header {
+          padding: 40px 30px;
+        }
+
+        .error-code {
+          font-size: 3rem;
+        }
+
+        .error-title {
+          font-size: 1.25rem;
+        }
+
+        .error-body {
+          padding: 25px 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-card">
+      <div class="error-header">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+      </div>
+      <div class="error-body">
+        <p class="error-description">
+          Looks like this page got lost in the cookie jar. Let's get you back to the main site.
+        </p>
+        <a href="/" class="error-link">← Back to Dogleg</a>
+      </div>
+    </div>
+  </body>
+</html>
