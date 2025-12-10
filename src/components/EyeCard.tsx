@@ -43,7 +43,7 @@ const EyeCard = () => {
           </div>
           <div className="card-body">
             <div className="color-code">#0263AD</div>
-            <h2 className="card-title">Dogleg is Cookie Moster</h2>
+            <h2 className="card-title">Dogleg is Cookie Monster</h2>
             <p className="card-description">
               C is for cookie, that's good enough for Dogleg!
             </p>
